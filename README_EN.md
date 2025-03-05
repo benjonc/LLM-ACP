@@ -1,3 +1,5 @@
+## **[简体中文](./README.md)** / **English**
+
 # Thoughts on Building Large Projects Using LLM  
 
 Build large projects through large models in a one-by-one manner.
