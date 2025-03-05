@@ -2,6 +2,10 @@
 
 # Thoughts on Building Large Projects Using LLM  
 
+> Our goal: Enable LLM to truly build large projects through conversations.   
+> Friends with ideas are welcome to join us in making it come true.     
+---
+
 Build large projects through large models in a one-by-one manner.    
 Customize code file rules and code styles.    
 
