@@ -18,3 +18,22 @@ Break down the business logic. The breakdown of business logic involves:     cla
 
 The LLM communicates with the user. If everything is confirmed to be okay, it will be added to the knowledge base. There is an LLM in the knowledge base to determine how the content to be added should be organized in the knowledge base. Finally, save it.    
 
+Implementation Method:
+
+> The knowledge base can be implemented using an MCP server.
+
+1. Create two roles: one is the knowledge base administrator, and the other is the project feasibility analysis role.
+2. Determine project feasibility. Create a project feasibility analysis role to assist users in determining project feasibility and generate a project feasibility analysis report, which will be placed in the knowledge base.
+3. Based on the project feasibility study, determine the project architecture and generate an architecture document, which will be placed in the knowledge base.
+4. Determine the occupations required for the project architecture (generally: product manager, designer, front-end developer, back-end developer, tester, knowledge base administrator).
+5. Create LLM roles according to the occupations required for the project and define the rules for these roles.
+6. Create a knowledge base according to the occupations required for the project and define the rules for the knowledge base.
+7. The product manager has a conversation with the user to determine user requirements, refine the user requirements, and generate a user requirements document, which will be placed in the knowledge base.
+8. Based on user requirements, break down front-end and back-end tasks and generate front-end and back-end task lists, which will be placed in the knowledge base.
+9. The front-end role breaks down the front-end task list in the knowledge base and generates a front-end task list, which will be placed in the knowledge base.
+    1. TODO
+10. The back-end role breaks down the front-end task list in the knowledge base and generates a front-end task list, which will be placed in the knowledge base.
+    1. TODO
+11. The testing role breaks down the front-end task list in the knowledge base and generates a front-end task list, which will be placed in the knowledge base.
+    1. TODO
+12. Improve and optimize.
